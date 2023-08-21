@@ -1,0 +1,15 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+parameters:
+    paths:
+        - app
+        - Modules
+    level: 5
+    ignoreErrors:
+        - '#Call to an undefined method#'
+        - '#Access to an undefined property#'
+    excludePaths:
+    checkGenericClassInNonGenericObjectType: false
+    checkMissingIterableValueType: false
+    noUnnecessaryCollectionCall: true
+    treatPhpDocTypesAsCertain: false

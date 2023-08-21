@@ -1,0 +1,11 @@
+{
+    "name": "Simpsons",
+    "alias": "simpsons",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Simpsons\\Providers\\SimpsonsServiceProvider"
+    ],
+    "files": []
+}
